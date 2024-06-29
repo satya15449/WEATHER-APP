@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<!-- bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/afe21fc718.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container-float">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">All About Weather</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#weatherdetails">Weather-Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+   
+      <section class="" id="home">
+         <div class="weather-input container-float">
+          <h3>Enter a City Name</h3>
+          <input class="city-input" type="text"placeholder="E.g., New York, London, Tokyo">
+          <button class="search-btn " >search</button>
+          <div class="separator"></div>
+          <button class="location-btn" >Use Current Location</button>
+         </div>
+      </section>
+      <section class="" id="weatherdetails">
+            <div class="weather-data container-float">
+              <div class="current-weather">
+              <div class="details">
+                <h2>_______ (_______)</h2>
+                <h4>Temperature:_____ °C</h4>
+                <h4>Wind:_______m/s</h4>
+                <h4>Humidity:___%</h4>
+              </div>
+              
+            </div>
+            </div>
+            <div class="days-forecast container-float">
+              <h2>5-Day Forecast</h2>
+              <div class="row weather-cards">
+                <div class="card col-lg-2 col-md-4 col-sm-6">
+                <h3>(___________)</h>
+                <h4>Temp:_______°C</h4>
+                <h4>Wind:_______m/s</h4>
+                <h4>Humidity:___%</h4>
+                </div>
+                <div class="card col-lg-2 col-md-4 col-sm-6">
+                  <h3>(___________)</h>
+                    <h4>Temp:_______°C</h4>
+                    <h4>Wind:_______m/s</h4>
+                    <h4>Humidity:___%</h4>
+                </div>
+                  <div class="card col-lg-2 col-md-4 col-sm-6">
+                    <h3>(___________)</h>
+                      <h4>Temp:_______°C</h4>
+                      <h4>Wind:_______m/s</h4>
+                      <h4>Humidity:___%</h4>
+                  </div>
+                    <div class="card col-lg-2 col-md-4 col-sm-6">
+                      <h3>(___________)</h>
+                        <h4>Temp:_______°C</h4>
+                        <h4>Wind:_______m/s</h4>
+                        <h4>Humidity:___%</h4>
+                    </div>
+                      <div class="card col-lg-2 col-md-4 col-sm-6">
+                        <h3>(___________)</h>
+                          <h4>Temp:_______°C</h4>
+                          <h4>Wind:_______m/s</h4>
+                          <h4>Humidity:___%</h4>
+                      </div>
+              
+            </div>
+          </div>
+      </section>
+      <section id="footer">
+        <div class="container-float">
+    <a href="https://twitter.com/OpenWeatherMap" class="icons"><i style="color: black;"class="fa-brands fa-twitter fa-2x"></i></a>
+    <a href="https://www.facebook.com/groups/270748973021342" class="icons"><i style="color: black;"class="fa-brands fa-facebook fa-2x"></i></a>
+    <a href="https://www.linkedin.com/company/9816754" class="icons"><i style="color: black;"class="fa-brands fa-instagram fa-2x"></i></a>
+    <a href="https://medium.com/@openweathermap" class="icons"><i style="color: black;"class="fa-solid fa-envelope fa-2x"></i></a>
+        <p class="footerpara">© All About Weather</p>
+      </div>
+    </section>
+</body>
+<!-- !-- Footer --> 
+
+  
+</html>

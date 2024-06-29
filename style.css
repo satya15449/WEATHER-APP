@@ -1,0 +1,176 @@
+body {
+    font: Montserrat-black;
+    text-align: center;
+    background-color: #d0e7f7;
+}
+.container-float .navbar{
+    padding: 0.5% 15%;
+    background-color: #5372f0;
+    color: #fff;
+}
+
+.container-float .navbar {
+    padding-top: -0.5rem;
+}
+
+.container-float .navbar-brand {   
+    font-family: "ubuntu";
+    font-size: 1.5rem;
+}
+
+.container-float .navbar-nav {
+    margin-left: auto;
+}
+
+.container-float .nav-item {
+    padding: 0 18px;
+    font-size: 1rem;
+}
+
+
+
+#home .container-float{
+    padding: 7% 6%;
+    margin: 7% auto 13% auto;
+}
+
+.weather-input{
+    width: 550px;
+}
+.weather-input input{
+    width: 25rem;
+    height: 46px;
+    font-size: 1.07rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+.weather-input .separator{
+    height: 1px;
+    width:25rem;
+    margin: 1.5rem 0 0rem 0;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.weather-input .separator::before{
+content: "or";
+color: #6c757d;
+font-size: 1.18rem;
+padding: 0 1rem;
+background:#f9f9fa;
+}
+.weather-input button{
+    width: 25rem;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color:#fff;
+    font-size: 1rem;
+    border-radius: 4px;;
+    background: #5f7df5;
+    margin-top: 1.5rem;
+}
+.weather-input .location-btn{
+    background: #63757D;
+}
+
+/* weather-details */
+#weatherdetails{
+    background-color:#758ef3 ;
+    
+ 
+}
+#weatherdetails .weather-data{
+    margin: 0% 20%;
+    padding:0 15%
+}
+#weatherdetails .container-float{
+    padding: 1% 8%;
+}
+
+.current-weather{
+    color:#fff;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    background: #5372f0;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.current-weather h2{
+    font-size: 1.7rem;
+}
+.weather-data h4{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.current-weather .icon{
+    text-align: center;
+}
+.current-weather .icon img{
+    max-width: 120px;
+    margin-top: -1rem;
+}
+
+.current-weather .icon h4{
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.days-forecast h2{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+
+.weather-cards .card{
+    list-style: none;
+    color: #fff;
+    padding: 1.2rem 1rem;
+    border-radius: 5px;
+    background: #6c757d;
+    margin: 1.2rem;
+}
+
+/* .weather-cards .card img{
+    max-width: 70px;
+    margin: 5px 0 -12px 0;
+} */
+/* footer */
+.footerpara {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.icons {
+    margin: 2rem;
+}
+ #footer .container-float{
+    text-align: center;
+    padding: 7% 0
+ }
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans: wght@400; 500; 600; 700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+} 
+/* @media (max-width:660px) {
+    #home{
+        text-align: center;
+    }
+} */
